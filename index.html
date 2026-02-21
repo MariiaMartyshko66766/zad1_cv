@@ -15,42 +15,32 @@
         color: #333;
     }
 
-    .container {
+    main {
         max-width: 900px;
-        margin: 50px auto;
+        margin: 40px auto;
         background: #ffffff;
         padding: 40px;
         border-radius: 16px;
         box-shadow: 0 20px 40px rgba(0,0,0,0.1);
     }
 
-    .header {
+    header {
         text-align: center;
-        border-bottom: 2px solid #f0f0f0;
-        padding-bottom: 25px;
+        padding: 30px 0;
+        background-color: #ffffff;
     }
 
-    .header h1 {
+    header h1 {
         margin: 0;
         font-size: 36px;
         color: #1a237e;
     }
 
-    .header p {
-        margin: 6px 0;
-        font-size: 15px;
-    }
-
-    .header a {
-        color: #1565c0;
-        font-weight: 500;
-    }
-
-    .section {
+    section {
         margin-top: 35px;
     }
 
-    .section h2 {
+    section h2 {
         font-size: 24px;
         color: #283593;
         margin-bottom: 12px;
@@ -58,7 +48,7 @@
         padding-left: 12px;
     }
 
-    .section p {
+    section p {
         line-height: 1.7;
     }
 
@@ -81,20 +71,36 @@
         font-weight: bold;
     }
 
-    .footer {
-        margin-top: 50px;
+    a {
+        color: #1565c0;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    img {
+        margin-top: 15px;
+        border-radius: 50%;
+    }
+
+    footer {
         text-align: center;
+        margin-top: 40px;
+        padding: 20px;
         font-size: 14px;
         color: #777;
     }
 
     @media (max-width: 600px) {
-        .container {
+        main {
             margin: 20px;
             padding: 25px;
         }
 
-        .header h1 {
+        header h1 {
             font-size: 28px;
         }
     }
